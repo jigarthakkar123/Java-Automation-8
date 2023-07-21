@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Gmail Suite]">
+  <test thread-count="1" parallel="tests" name="demoblaze(failed)">
+    <classes>
+      <class name="com.suit2.DemoBlaze">
+        <methods>
+          <include name="logout"/>
+          <include name="init"/>
+          <include name="destroy"/>
+        </methods>
+      </class> <!-- com.suit2.DemoBlaze -->
+    </classes>
+  </test> <!-- demoblaze(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  	<groups>
+  		<run>	
+   			<include name="strong_ties" />	
+        </run>	
+    </groups>
+    
+    <classes>
+      <class name="com.test.GroupDemoTestNG"/>
+      <methods>
+			<include name="test1"></include>
+			<include name="test2"></include>
+			<include name="test4"></include>
+			<include name="test3"></include>
+	</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
